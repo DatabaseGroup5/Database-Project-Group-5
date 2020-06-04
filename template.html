@@ -4,22 +4,52 @@
  	<title>Home</title>
  	<meta name="viewport" content="width=device-width, initial-scale=1">
  	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 	  	table {
 	     	border-collapse: collapse;
 	     	width: 100%;
 	  	}
-	  	
+
+		* {
+		  	box-sizing: border-box;
+		}
+
+		form.search input[type=text] {
+		  	padding: 10px;
+		  	font-size: 17px;
+		  	border: 1px solid grey;
+		  	float: left;
+		  	width: 80%;
+		  	background: #f1f1f1;
+		}
+
+		form.search button {
+		  	float: left;
+		  	width: 20%;
+		  	padding: 10px;
+		  	background: #2196F3;
+		  	color: white;
+		  	font-size: 17px;
+		  	border: 1px solid grey;
+		  	border-left: none;
+		  	cursor: pointer;
+		}
+
+		form.search button:hover {
+		  	background: #0b7dda;
+		}
 	</style>
 </head>
+
 <body>
 	<table>
 		<tr>
 		 	<div class="w3-bar w3-black">
 		 		<a href="#" class="w3-bar-item w3-button w3-mobile w3-black" style="width:23%">Home</a>
 		  		<div class="w3-dropdown-hover w3-black" style="width:23%">
-				  	<div class="w3-dropdown-hover">
-				    	<button class="w3-button w3-mobile w3-black" >Country</button>
+				  	<div class="w3-dropdown-hover" style="width:23%">
+				    	<button class="w3-button w3-mobile w3-black" style="width:400%">Country</button>
 		   				<div class="w3-dropdown-content w3-bar-block w3-card-4" style="width:23%">
 						    <a href="#" class="w3-bar-item w3-button">Link 1</a>
 						    <a href="#" class="w3-bar-item w3-button">Link 2</a>
@@ -28,8 +58,10 @@
 					</div>
 		  		</div>
 		  		<a href="#" class="w3-bar-item w3-button w3-mobile w3-black" style="width:23%">List</a>
-			  	<input type="text" class="w3-bar-item w3-input" placeholder="Search.." style="width:23%">
-			  	<a href="#" class="w3-bar-item w3-button w3-black"style="width:8%" >Go</a>
+		  		<form class="search" action="/action_page.php" style="width:23%">
+				  	<input type="text" placeholder="Search.." name="search" style="width:23%" class="w3-bar-item w3-input">
+				  	<button type="submit" class="w3-button w3-black" style="width:8%"><i class="fa fa-search"></i></button>
+				</form>
 		 	</div>
 		 </tr>
 		 <tr>xx</tr>
