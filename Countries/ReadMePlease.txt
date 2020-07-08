@@ -7,7 +7,7 @@ Apa saja yang mau diubah
 5. Line 317, CTH: TotalConfirmed176
    Cuman ganti angkanya, setiap negara cuman ada 1 angka
    Cara liat dia row keberapa di csvnya eric, aku ud upload ke git juga
-   US itu di row 176, jadi angkanya 176
+   US itu di row 178, jadi angkanya 176, ttp di kurang 2 dari row asli
 6. Line 320, sama kyk no 4
 6. Line 330, sama kyk no 4
 7. Line 333, sama kyk no 4
