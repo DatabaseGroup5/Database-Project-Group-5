@@ -1,4 +1,3 @@
-
 var config = {
     apiKey: "AIzaSyDskfClu41qf-OaWQK-dnNDk1BVNb8uXi8",
     authDomain: "database-final-project-d460c.firebaseapp.com",
@@ -16,7 +15,6 @@ var config = {
 
 var database = firebase.database();
  
-
 var ref= database.ref().child('0').child('Population');
 ref.on('value', function(snapshot){ 
 	var ans= JSON.stringify(snapshot.val());
@@ -50,7 +48,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('0').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths0").innerHTML = ans;
+	document.getElementById("TodayDeaths0").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('1').child('Population');
 ref.on('value', function(snapshot){ 
@@ -85,7 +83,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('1').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths1").innerHTML = ans;
+	document.getElementById("TodayDeaths1").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('2').child('Population');
 ref.on('value', function(snapshot){ 
@@ -120,7 +118,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('2').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths2").innerHTML = ans;
+	document.getElementById("TodayDeaths2").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('3').child('Population');
 ref.on('value', function(snapshot){ 
@@ -155,7 +153,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('3').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths3").innerHTML = ans;
+	document.getElementById("TodayDeaths3").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('4').child('Population');
 ref.on('value', function(snapshot){ 
@@ -190,7 +188,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('4').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths4").innerHTML = ans;
+	document.getElementById("TodayDeaths4").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('5').child('Population');
 ref.on('value', function(snapshot){ 
@@ -225,7 +223,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('5').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths5").innerHTML = ans;
+	document.getElementById("TodayDeaths5").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('6').child('Population');
 ref.on('value', function(snapshot){ 
@@ -260,7 +258,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('6').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths6").innerHTML = ans;
+	document.getElementById("TodayDeaths6").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('7').child('Population');
 ref.on('value', function(snapshot){ 
@@ -295,7 +293,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('7').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths7").innerHTML = ans;
+	document.getElementById("TodayDeaths7").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('8').child('Population');
 ref.on('value', function(snapshot){ 
@@ -330,7 +328,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('8').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths8").innerHTML = ans;
+	document.getElementById("TodayDeaths8").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('9').child('Population');
 ref.on('value', function(snapshot){ 
@@ -365,7 +363,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('9').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths9").innerHTML = ans;
+	document.getElementById("TodayDeaths9").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('10').child('Population');
 ref.on('value', function(snapshot){ 
@@ -400,7 +398,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('10').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths10").innerHTML = ans;
+	document.getElementById("TodayDeaths10").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('11').child('Population');
 ref.on('value', function(snapshot){ 
@@ -435,7 +433,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('11').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths11").innerHTML = ans;
+	document.getElementById("TodayDeaths11").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('12').child('Population');
 ref.on('value', function(snapshot){ 
@@ -470,7 +468,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('12').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths12").innerHTML = ans;
+	document.getElementById("TodayDeaths12").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('13').child('Population');
 ref.on('value', function(snapshot){ 
@@ -505,7 +503,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('13').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths13").innerHTML = ans;
+	document.getElementById("TodayDeaths13").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('14').child('Population');
 ref.on('value', function(snapshot){ 
@@ -540,7 +538,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('14').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths14").innerHTML = ans;
+	document.getElementById("TodayDeaths14").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('15').child('Population');
 ref.on('value', function(snapshot){ 
@@ -575,7 +573,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('15').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths15").innerHTML = ans;
+	document.getElementById("TodayDeaths15").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('16').child('Population');
 ref.on('value', function(snapshot){ 
@@ -610,7 +608,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('16').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths16").innerHTML = ans;
+	document.getElementById("TodayDeaths16").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('17').child('Population');
 ref.on('value', function(snapshot){ 
@@ -645,7 +643,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('17').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths17").innerHTML = ans;
+	document.getElementById("TodayDeaths17").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('18').child('Population');
 ref.on('value', function(snapshot){ 
@@ -680,7 +678,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('18').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths18").innerHTML = ans;
+	document.getElementById("TodayDeaths18").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('19').child('Population');
 ref.on('value', function(snapshot){ 
@@ -715,7 +713,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('19').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths19").innerHTML = ans;
+	document.getElementById("TodayDeaths19").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('20').child('Population');
 ref.on('value', function(snapshot){ 
@@ -750,7 +748,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('20').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths20").innerHTML = ans;
+	document.getElementById("TodayDeaths20").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('21').child('Population');
 ref.on('value', function(snapshot){ 
@@ -785,7 +783,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('21').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths21").innerHTML = ans;
+	document.getElementById("TodayDeaths21").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('22').child('Population');
 ref.on('value', function(snapshot){ 
@@ -820,7 +818,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('22').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths22").innerHTML = ans;
+	document.getElementById("TodayDeaths22").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('23').child('Population');
 ref.on('value', function(snapshot){ 
@@ -855,7 +853,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('23').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths23").innerHTML = ans;
+	document.getElementById("TodayDeaths23").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('24').child('Population');
 ref.on('value', function(snapshot){ 
@@ -890,7 +888,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('24').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths24").innerHTML = ans;
+	document.getElementById("TodayDeaths24").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('25').child('Population');
 ref.on('value', function(snapshot){ 
@@ -925,7 +923,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('25').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths25").innerHTML = ans;
+	document.getElementById("TodayDeaths25").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('26').child('Population');
 ref.on('value', function(snapshot){ 
@@ -960,7 +958,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('26').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths26").innerHTML = ans;
+	document.getElementById("TodayDeaths26").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('27').child('Population');
 ref.on('value', function(snapshot){ 
@@ -995,7 +993,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('27').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths27").innerHTML = ans;
+	document.getElementById("TodayDeaths27").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('28').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1030,7 +1028,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('28').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths28").innerHTML = ans;
+	document.getElementById("TodayDeaths28").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('29').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1065,7 +1063,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('29').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths29").innerHTML = ans;
+	document.getElementById("TodayDeaths29").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('30').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1100,7 +1098,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('30').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths30").innerHTML = ans;
+	document.getElementById("TodayDeaths30").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('31').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1135,7 +1133,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('31').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths31").innerHTML = ans;
+	document.getElementById("TodayDeaths31").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('32').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1170,7 +1168,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('32').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths32").innerHTML = ans;
+	document.getElementById("TodayDeaths32").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('33').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1205,7 +1203,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('33').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths33").innerHTML = ans;
+	document.getElementById("TodayDeaths33").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('34').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1240,7 +1238,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('34').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths34").innerHTML = ans;
+	document.getElementById("TodayDeaths34").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('35').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1275,7 +1273,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('35').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths35").innerHTML = ans;
+	document.getElementById("TodayDeaths35").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('36').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1310,7 +1308,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('36').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths36").innerHTML = ans;
+	document.getElementById("TodayDeaths36").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('37').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1345,7 +1343,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('37').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths37").innerHTML = ans;
+	document.getElementById("TodayDeaths37").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('38').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1380,7 +1378,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('38').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths38").innerHTML = ans;
+	document.getElementById("TodayDeaths38").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('39').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1415,7 +1413,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('39').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths39").innerHTML = ans;
+	document.getElementById("TodayDeaths39").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('40').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1450,7 +1448,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('40').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths40").innerHTML = ans;
+	document.getElementById("TodayDeaths40").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('41').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1485,7 +1483,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('41').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths41").innerHTML = ans;
+	document.getElementById("TodayDeaths41").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('42').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1520,7 +1518,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('42').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths42").innerHTML = ans;
+	document.getElementById("TodayDeaths42").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('43').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1555,7 +1553,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('43').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths43").innerHTML = ans;
+	document.getElementById("TodayDeaths43").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('44').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1590,7 +1588,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('44').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths44").innerHTML = ans;
+	document.getElementById("TodayDeaths44").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('45').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1625,7 +1623,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('45').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths45").innerHTML = ans;
+	document.getElementById("TodayDeaths45").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('46').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1660,7 +1658,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('46').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths46").innerHTML = ans;
+	document.getElementById("TodayDeaths46").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('47').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1695,7 +1693,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('47').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths47").innerHTML = ans;
+	document.getElementById("TodayDeaths47").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('48').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1730,7 +1728,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('48').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths48").innerHTML = ans;
+	document.getElementById("TodayDeaths48").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('49').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1765,7 +1763,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('49').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths49").innerHTML = ans;
+	document.getElementById("TodayDeaths49").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('50').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1800,7 +1798,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('50').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths50").innerHTML = ans;
+	document.getElementById("TodayDeaths50").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('51').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1835,7 +1833,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('51').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths51").innerHTML = ans;
+	document.getElementById("TodayDeaths51").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('52').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1870,7 +1868,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('52').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths52").innerHTML = ans;
+	document.getElementById("TodayDeaths52").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('53').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1905,7 +1903,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('53').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths53").innerHTML = ans;
+	document.getElementById("TodayDeaths53").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('54').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1940,7 +1938,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('54').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths54").innerHTML = ans;
+	document.getElementById("TodayDeaths54").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('55').child('Population');
 ref.on('value', function(snapshot){ 
@@ -1975,7 +1973,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('55').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths55").innerHTML = ans;
+	document.getElementById("TodayDeaths55").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('56').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2010,7 +2008,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('56').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths56").innerHTML = ans;
+	document.getElementById("TodayDeaths56").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('57').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2045,7 +2043,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('57').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths57").innerHTML = ans;
+	document.getElementById("TodayDeaths57").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('58').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2080,7 +2078,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('58').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths58").innerHTML = ans;
+	document.getElementById("TodayDeaths58").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('59').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2115,7 +2113,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('59').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths59").innerHTML = ans;
+	document.getElementById("TodayDeaths59").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('60').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2150,7 +2148,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('60').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths60").innerHTML = ans;
+	document.getElementById("TodayDeaths60").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('61').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2185,7 +2183,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('61').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths61").innerHTML = ans;
+	document.getElementById("TodayDeaths61").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('62').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2220,7 +2218,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('62').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths62").innerHTML = ans;
+	document.getElementById("TodayDeaths62").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('63').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2255,7 +2253,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('63').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths63").innerHTML = ans;
+	document.getElementById("TodayDeaths63").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('64').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2290,7 +2288,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('64').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths64").innerHTML = ans;
+	document.getElementById("TodayDeaths64").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('65').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2325,7 +2323,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('65').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths65").innerHTML = ans;
+	document.getElementById("TodayDeaths65").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('66').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2360,7 +2358,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('66').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths66").innerHTML = ans;
+	document.getElementById("TodayDeaths66").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('67').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2395,7 +2393,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('67').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths67").innerHTML = ans;
+	document.getElementById("TodayDeaths67").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('68').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2430,7 +2428,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('68').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths68").innerHTML = ans;
+	document.getElementById("TodayDeaths68").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('69').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2465,7 +2463,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('69').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths69").innerHTML = ans;
+	document.getElementById("TodayDeaths69").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('70').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2500,7 +2498,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('70').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths70").innerHTML = ans;
+	document.getElementById("TodayDeaths70").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('71').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2535,7 +2533,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('71').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths71").innerHTML = ans;
+	document.getElementById("TodayDeaths71").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('72').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2570,7 +2568,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('72').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths72").innerHTML = ans;
+	document.getElementById("TodayDeaths72").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('73').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2605,7 +2603,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('73').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths73").innerHTML = ans;
+	document.getElementById("TodayDeaths73").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('74').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2640,7 +2638,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('74').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths74").innerHTML = ans;
+	document.getElementById("TodayDeaths74").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('75').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2675,7 +2673,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('75').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths75").innerHTML = ans;
+	document.getElementById("TodayDeaths75").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('76').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2710,7 +2708,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('76').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths76").innerHTML = ans;
+	document.getElementById("TodayDeaths76").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('77').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2745,7 +2743,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('77').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths77").innerHTML = ans;
+	document.getElementById("TodayDeaths77").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('78').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2780,7 +2778,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('78').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths78").innerHTML = ans;
+	document.getElementById("TodayDeaths78").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('79').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2815,7 +2813,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('79').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths79").innerHTML = ans;
+	document.getElementById("TodayDeaths79").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('80').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2850,7 +2848,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('80').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths80").innerHTML = ans;
+	document.getElementById("TodayDeaths80").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('81').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2885,7 +2883,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('81').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths81").innerHTML = ans;
+	document.getElementById("TodayDeaths81").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('82').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2920,7 +2918,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('82').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths82").innerHTML = ans;
+	document.getElementById("TodayDeaths82").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('83').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2955,7 +2953,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('83').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths83").innerHTML = ans;
+	document.getElementById("TodayDeaths83").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('84').child('Population');
 ref.on('value', function(snapshot){ 
@@ -2990,7 +2988,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('84').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths84").innerHTML = ans;
+	document.getElementById("TodayDeaths84").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('85').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3025,7 +3023,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('85').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths85").innerHTML = ans;
+	document.getElementById("TodayDeaths85").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('86').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3060,7 +3058,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('86').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths86").innerHTML = ans;
+	document.getElementById("TodayDeaths86").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('87').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3095,7 +3093,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('87').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths87").innerHTML = ans;
+	document.getElementById("TodayDeaths87").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('88').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3130,7 +3128,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('88').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths88").innerHTML = ans;
+	document.getElementById("TodayDeaths88").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('89').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3165,7 +3163,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('89').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths89").innerHTML = ans;
+	document.getElementById("TodayDeaths89").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('90').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3200,7 +3198,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('90').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths90").innerHTML = ans;
+	document.getElementById("TodayDeaths90").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('91').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3235,7 +3233,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('91').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths91").innerHTML = ans;
+	document.getElementById("TodayDeaths91").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('92').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3270,7 +3268,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('92').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths92").innerHTML = ans;
+	document.getElementById("TodayDeaths92").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('93').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3305,7 +3303,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('93').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths93").innerHTML = ans;
+	document.getElementById("TodayDeaths93").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('94').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3340,7 +3338,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('94').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths94").innerHTML = ans;
+	document.getElementById("TodayDeaths94").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('95').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3375,7 +3373,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('95').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths95").innerHTML = ans;
+	document.getElementById("TodayDeaths95").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('96').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3410,7 +3408,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('96').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths96").innerHTML = ans;
+	document.getElementById("TodayDeaths96").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('97').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3445,7 +3443,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('97').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths97").innerHTML = ans;
+	document.getElementById("TodayDeaths97").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('98').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3480,7 +3478,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('98').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths98").innerHTML = ans;
+	document.getElementById("TodayDeaths98").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('99').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3515,7 +3513,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('99').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths99").innerHTML = ans;
+	document.getElementById("TodayDeaths99").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('100').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3550,7 +3548,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('100').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths100").innerHTML = ans;
+	document.getElementById("TodayDeaths100").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('101').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3585,7 +3583,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('101').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths101").innerHTML = ans;
+	document.getElementById("TodayDeaths101").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('102').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3620,7 +3618,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('102').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths102").innerHTML = ans;
+	document.getElementById("TodayDeaths102").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('103').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3655,7 +3653,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('103').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths103").innerHTML = ans;
+	document.getElementById("TodayDeaths103").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('104').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3690,7 +3688,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('104').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths104").innerHTML = ans;
+	document.getElementById("TodayDeaths104").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('105').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3725,7 +3723,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('105').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths105").innerHTML = ans;
+	document.getElementById("TodayDeaths105").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('106').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3760,7 +3758,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('106').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths106").innerHTML = ans;
+	document.getElementById("TodayDeaths106").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('107').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3795,7 +3793,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('107').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths107").innerHTML = ans;
+	document.getElementById("TodayDeaths107").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('108').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3830,7 +3828,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('108').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths108").innerHTML = ans;
+	document.getElementById("TodayDeaths108").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('109').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3865,7 +3863,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('109').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths109").innerHTML = ans;
+	document.getElementById("TodayDeaths109").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('110').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3900,7 +3898,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('110').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths110").innerHTML = ans;
+	document.getElementById("TodayDeaths110").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('111').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3935,7 +3933,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('111').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths111").innerHTML = ans;
+	document.getElementById("TodayDeaths111").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('112').child('Population');
 ref.on('value', function(snapshot){ 
@@ -3970,7 +3968,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('112').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths112").innerHTML = ans;
+	document.getElementById("TodayDeaths112").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('113').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4005,7 +4003,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('113').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths113").innerHTML = ans;
+	document.getElementById("TodayDeaths113").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('114').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4040,7 +4038,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('114').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths114").innerHTML = ans;
+	document.getElementById("TodayDeaths114").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('115').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4075,7 +4073,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('115').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths115").innerHTML = ans;
+	document.getElementById("TodayDeaths115").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('116').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4110,7 +4108,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('116').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths116").innerHTML = ans;
+	document.getElementById("TodayDeaths116").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('117').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4145,7 +4143,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('117').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths117").innerHTML = ans;
+	document.getElementById("TodayDeaths117").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('118').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4180,7 +4178,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('118').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths118").innerHTML = ans;
+	document.getElementById("TodayDeaths118").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('119').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4215,7 +4213,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('119').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths119").innerHTML = ans;
+	document.getElementById("TodayDeaths119").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('120').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4250,7 +4248,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('120').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths120").innerHTML = ans;
+	document.getElementById("TodayDeaths120").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('121').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4285,7 +4283,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('121').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths121").innerHTML = ans;
+	document.getElementById("TodayDeaths121").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('122').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4320,7 +4318,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('122').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths122").innerHTML = ans;
+	document.getElementById("TodayDeaths122").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('123').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4355,7 +4353,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('123').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths123").innerHTML = ans;
+	document.getElementById("TodayDeaths123").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('124').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4390,7 +4388,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('124').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths124").innerHTML = ans;
+	document.getElementById("TodayDeaths124").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('125').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4425,7 +4423,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('125').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths125").innerHTML = ans;
+	document.getElementById("TodayDeaths125").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('126').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4460,7 +4458,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('126').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths126").innerHTML = ans;
+	document.getElementById("TodayDeaths126").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('127').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4495,7 +4493,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('127').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths127").innerHTML = ans;
+	document.getElementById("TodayDeaths127").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('128').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4530,7 +4528,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('128').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths128").innerHTML = ans;
+	document.getElementById("TodayDeaths128").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('129').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4565,7 +4563,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('129').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths129").innerHTML = ans;
+	document.getElementById("TodayDeaths129").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('130').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4600,7 +4598,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('130').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths130").innerHTML = ans;
+	document.getElementById("TodayDeaths130").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('131').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4635,7 +4633,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('131').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths131").innerHTML = ans;
+	document.getElementById("TodayDeaths131").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('132').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4670,7 +4668,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('132').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths132").innerHTML = ans;
+	document.getElementById("TodayDeaths132").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('133').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4705,7 +4703,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('133').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths133").innerHTML = ans;
+	document.getElementById("TodayDeaths133").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('134').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4740,7 +4738,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('134').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths134").innerHTML = ans;
+	document.getElementById("TodayDeaths134").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('135').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4775,7 +4773,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('135').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths135").innerHTML = ans;
+	document.getElementById("TodayDeaths135").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('136').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4810,7 +4808,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('136').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths136").innerHTML = ans;
+	document.getElementById("TodayDeaths136").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('137').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4845,7 +4843,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('137').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths137").innerHTML = ans;
+	document.getElementById("TodayDeaths137").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('138').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4880,7 +4878,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('138').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths138").innerHTML = ans;
+	document.getElementById("TodayDeaths138").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('139').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4915,7 +4913,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('139').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths139").innerHTML = ans;
+	document.getElementById("TodayDeaths139").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('140').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4950,7 +4948,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('140').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths140").innerHTML = ans;
+	document.getElementById("TodayDeaths140").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('141').child('Population');
 ref.on('value', function(snapshot){ 
@@ -4985,7 +4983,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('141').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths141").innerHTML = ans;
+	document.getElementById("TodayDeaths141").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('142').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5020,7 +5018,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('142').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths142").innerHTML = ans;
+	document.getElementById("TodayDeaths142").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('143').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5055,7 +5053,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('143').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths143").innerHTML = ans;
+	document.getElementById("TodayDeaths143").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('144').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5090,7 +5088,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('144').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths144").innerHTML = ans;
+	document.getElementById("TodayDeaths144").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('145').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5125,7 +5123,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('145').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths145").innerHTML = ans;
+	document.getElementById("TodayDeaths145").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('146').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5160,7 +5158,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('146').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths146").innerHTML = ans;
+	document.getElementById("TodayDeaths146").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('147').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5195,7 +5193,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('147').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths147").innerHTML = ans;
+	document.getElementById("TodayDeaths147").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('148').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5230,7 +5228,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('148').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths148").innerHTML = ans;
+	document.getElementById("TodayDeaths148").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('149').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5265,7 +5263,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('149').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths149").innerHTML = ans;
+	document.getElementById("TodayDeaths149").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('150').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5300,7 +5298,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('150').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths150").innerHTML = ans;
+	document.getElementById("TodayDeaths150").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('151').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5335,7 +5333,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('151').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths151").innerHTML = ans;
+	document.getElementById("TodayDeaths151").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('152').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5370,7 +5368,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('152').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths152").innerHTML = ans;
+	document.getElementById("TodayDeaths152").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('153').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5405,7 +5403,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('153').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths153").innerHTML = ans;
+	document.getElementById("TodayDeaths153").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('154').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5440,7 +5438,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('154').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths154").innerHTML = ans;
+	document.getElementById("TodayDeaths154").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('155').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5475,7 +5473,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('155').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths155").innerHTML = ans;
+	document.getElementById("TodayDeaths155").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('156').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5510,7 +5508,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('156').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths156").innerHTML = ans;
+	document.getElementById("TodayDeaths156").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('157').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5545,7 +5543,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('157').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths157").innerHTML = ans;
+	document.getElementById("TodayDeaths157").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('158').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5580,7 +5578,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('158').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths158").innerHTML = ans;
+	document.getElementById("TodayDeaths158").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('159').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5615,7 +5613,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('159').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths159").innerHTML = ans;
+	document.getElementById("TodayDeaths159").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('160').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5650,7 +5648,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('160').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths160").innerHTML = ans;
+	document.getElementById("TodayDeaths160").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('161').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5685,7 +5683,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('161').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths161").innerHTML = ans;
+	document.getElementById("TodayDeaths161").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('162').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5720,7 +5718,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('162').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths162").innerHTML = ans;
+	document.getElementById("TodayDeaths162").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('163').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5755,7 +5753,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('163').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths163").innerHTML = ans;
+	document.getElementById("TodayDeaths163").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('164').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5790,7 +5788,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('164').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths164").innerHTML = ans;
+	document.getElementById("TodayDeaths164").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('165').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5825,7 +5823,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('165').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths165").innerHTML = ans;
+	document.getElementById("TodayDeaths165").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('166').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5860,7 +5858,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('166').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths166").innerHTML = ans;
+	document.getElementById("TodayDeaths166").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('167').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5895,7 +5893,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('167').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths167").innerHTML = ans;
+	document.getElementById("TodayDeaths167").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('168').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5930,7 +5928,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('168').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths168").innerHTML = ans;
+	document.getElementById("TodayDeaths168").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('169').child('Population');
 ref.on('value', function(snapshot){ 
@@ -5965,7 +5963,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('169').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths169").innerHTML = ans;
+	document.getElementById("TodayDeaths169").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('170').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6000,7 +5998,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('170').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths170").innerHTML = ans;
+	document.getElementById("TodayDeaths170").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('171').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6035,7 +6033,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('171').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths171").innerHTML = ans;
+	document.getElementById("TodayDeaths171").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('172').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6070,7 +6068,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('172').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths172").innerHTML = ans;
+	document.getElementById("TodayDeaths172").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('173').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6105,7 +6103,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('173').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths173").innerHTML = ans;
+	document.getElementById("TodayDeaths173").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('174').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6140,7 +6138,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('174').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths174").innerHTML = ans;
+	document.getElementById("TodayDeaths174").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('175').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6175,7 +6173,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('175').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths175").innerHTML = ans;
+	document.getElementById("TodayDeaths175").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('176').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6210,7 +6208,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('176').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths176").innerHTML = ans;
+	document.getElementById("TodayDeaths176").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('177').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6245,7 +6243,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('177').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths177").innerHTML = ans;
+	document.getElementById("TodayDeaths177").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('178').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6280,7 +6278,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('178').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths178").innerHTML = ans;
+	document.getElementById("TodayDeaths178").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('179').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6315,7 +6313,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('179').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths179").innerHTML = ans;
+	document.getElementById("TodayDeaths179").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('180').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6350,7 +6348,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('180').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths180").innerHTML = ans;
+	document.getElementById("TodayDeaths180").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('181').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6385,7 +6383,7 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('181').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths181").innerHTML = ans;
+	document.getElementById("TodayDeaths181").innerHTML = "+"+ans;
 })
 var ref= database.ref().child('182').child('Population');
 ref.on('value', function(snapshot){ 
@@ -6420,8 +6418,9 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('182').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths182").innerHTML = ans;
+	document.getElementById("TodayDeaths182").innerHTML = "+"+ans;
 })
+
 var ref= database.ref().child('183').child('Population');
 ref.on('value', function(snapshot){ 
 	var ans= JSON.stringify(snapshot.val());
@@ -6455,5 +6454,5 @@ ref.on('value', function(snapshot){
 var ref= database.ref().child('183').child('Today Deaths');
 ref.on('value', function(snapshot){
 	var ans= JSON.stringify(snapshot.val());
-	document.getElementById("TodayDeaths183").innerHTML = ans;
+	document.getElementById("TodayDeaths183").innerHTML = "+"+ans;
 })
