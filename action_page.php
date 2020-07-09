@@ -81,7 +81,7 @@
 	      header("Location: ./Countries/Brazil.html");
 	}
 	if($str == 'brunei'){
-	      header("Location: ./Countries/Brunei.html");
+	      header("Location: ./Countries/BruneiDarussalam.html");
 	}
 	if($str == 'bulgaria'){
 	      header("Location: ./Countries/Bulgaria.html");
@@ -126,16 +126,13 @@
 	      header("Location: ./Countries/Comoros.html");
 	}
 	if($str == 'congo brazzaville'){
-	      header("Location: ./Countries/CongoBrazzaville.html");
+	      header("Location: ./Countries/CongoBraszzaville.html");
 	}
 	if($str == 'congo kinshasa'){
 	      header("Location: ./Countries/CongoKinshasa.html");
 	}
 	if($str == 'costa rica'){
 	      header("Location: ./Countries/CostaRica.html");
-	}
-	if($str == 'cote d'ivoire'){
-	      header("Location: ./Countries/Coted'Ivoire.html");
 	}
 	if($str == 'croatia'){
 	      header("Location: ./Countries/Croatia.html");
@@ -147,13 +144,13 @@
 	      header("Location: ./Countries/Cyprus.html");
 	}
 	if($str == 'czechia'){
-	      header("Location: ./Countries/Czechia.html");
+	      header("Location: ./Countries/CzechRepublic.html");
 	}
 	if($str == 'denmark'){
 	      header("Location: ./Countries/Denmark.html");
 	}
 	if($str == 'djibouti'){
-	      header("Location: ./Countries/Djibouti.html");
+	      header("Location: ./Countries/Dijibouti.html");
 	}
 	if($str == 'dominica'){
 	      header("Location: ./Countries/Dominica.html");
@@ -178,9 +175,6 @@
 	}
 	if($str == 'estonia'){
 	      header("Location: ./Countries/Estonia.html");
-	}
-	if($str == 'eswatini'){
-	      header("Location: ./Countries/Eswatini.html");
 	}
 	if($str == 'ethiopia'){
 	      header("Location: ./Countries/Ethiopia.html");
@@ -218,11 +212,8 @@
 	if($str == 'guatemala'){
 	      header("Location: ./Countries/Guatemala.html");
 	}
-	if($str == 'guinea'){
-	      header("Location: ./Countries/Guinea.html");
-	}
 	if($str == 'guinea-bissau'){
-	      header("Location: ./Countries/Guinea-Bissau.html");
+	      header("Location: ./Countries/GuineaBissau.html");
 	}
 	if($str == 'guyana'){
 	      header("Location: ./Countries/Guyana.html");
@@ -377,9 +368,6 @@
 	if($str == 'nigeria'){
 	      header("Location: ./Countries/Nigeria.html");
 	}
-	if($str == 'north macedonia'){
-	      header("Location: ./Countries/NorthMacedonia.html");
-	}
 	if($str == 'norway'){
 	      header("Location: ./Countries/Norway.html");
 	}
@@ -488,9 +476,6 @@
 	if($str == 'sweden'){
 	      header("Location: ./Countries/Sweden.html");
 	}
-	if($str == 'switzerland'){
-	      header("Location: ./Countries/Switzerland.html");
-	}
 	if($str == 'syria'){
 	      header("Location: ./Countries/Syria.html");
 	}
@@ -507,7 +492,7 @@
 	      header("Location: ./Countries/Thailand.html");
 	}
 	if($str == 'timor-leste'){
-	      header("Location: ./Countries/Timor-Leste.html");
+	      header("Location: ./Countries/TimorLeste.html");
 	}
 	if($str == 'togo'){
 	      header("Location: ./Countries/Togo.html");
