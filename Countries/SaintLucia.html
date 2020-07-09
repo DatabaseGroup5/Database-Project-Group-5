@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.0//firebase-database.js"></script>
+
+  <script type = "text/javascript" src = "./application.js"></script>
+
+  <title>Saint Lucia</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      table, th, td {
+        border-collapse: collapse;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    form.search input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+    form.search button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    form.search button:hover {
+        background: #0b7dda;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="./application.js"></script>
+  <table>
+    <tr>
+      <div class="w3-bar w3-black">
+        <a href="#" class="w3-bar-item w3-button w3-mobile w3-black" style="width:23%">Home</a>
+          <div class="w3-dropdown-hover w3-black" style="width:23%">
+            <div class="w3-dropdown-hover" style="width:23%">
+              <button class="w3-button w3-mobile w3-black" style="width:440%">Country</button>
+              <!--COUNTRIES DROPDOWN-->
+              <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 100%">
+                <div class='w3-col l3 m6'>
+                  <h3>North America</h3>
+                  <a class="w3-bar-item w3-button" href='./UnitedStates.html'>United States</a>
+                  <a class="w3-bar-item w3-button" href='./Canada.html'>Canada</a>
+                  <a class="w3-bar-item w3-button" href='./Mexico.html'>Mexico</a>
+                  <a class="w3-bar-item w3-button" href='./AntiguaandBarbuda.html'>Antigua and Barbuda</a>
+                  <a class="w3-bar-item w3-button" href='./Bahamas.html'>Bahamas</a>
+                  <a class="w3-bar-item w3-button" href='./Barbados.html'>Barbados</a>
+                  <a class="w3-bar-item w3-button" href='./Belize.html'>Belize</a>
+                  <a class="w3-bar-item w3-button" href='./CostaRica.html'>Costa Rica</a>
+                  <a class="w3-bar-item w3-button" href='./Cuba.html'>Cuba</a>
+                  <a class="w3-bar-item w3-button" href='./Dominica.html'>Dominica</a>
+                  <a class="w3-bar-item w3-button" href='./DominicanRepublic.html'>Dominican Republic</a>          
+                  <a class="w3-bar-item w3-button" href='./ElSalvador'>El Salvador</a> 
+                  <a class="w3-bar-item w3-button" href='./Grenada'>Grenada</a> 
+                  <a class="w3-bar-item w3-button" href='./Guatemala'>Guatemala</a> 
+                  <a class="w3-bar-item w3-button" href='./Haiti'>Haiti</a> 
+                  <a class="w3-bar-item w3-button" href='./Honduras'>Honduras</a> 
+                  <a class="w3-bar-item w3-button" href='./Jamaica'>Jamaica</a> 
+                  <a class="w3-bar-item w3-button" href='./Nicaragua'>Nicaragua</a> 
+                  <a class="w3-bar-item w3-button" href='./Panama'>Panama</a> 
+                  <a class="w3-bar-item w3-button" href='./SaintKittsandNevis'>Saint Kitts and Nevis</a> 
+                  <a class="w3-bar-item w3-button" href='./SaintVincentandTheGrenadines'>Saint Vincent and the Grenadines</a>
+                  <a class="w3-bar-item w3-button" href='./SaintLucia'>Saint Lucia</a> 
+                  <a class="w3-bar-item w3-button" href='./TrinidadandTobago'>Trinidad and Tobago</a> 
+
+                  <div class="w3-hide-large w3-hide-small">
+                    <h3>South America</h3>
+                    <a class="w3-bar-item w3-button" href='./Argentina'>Argentina</a>
+                    <a class="w3-bar-item w3-button" href='./Bolivia'>Bolivia</a>
+                    <a class="w3-bar-item w3-button" href="./Brazil">Brazil</a>
+                    <a class="w3-bar-item w3-button" href='./Chile'>Chile</a>
+                    <a class="w3-bar-item w3-button" href='./Colombia'>Colombia</a>
+                    <a class="w3-bar-item w3-button" href='./Ecuador'>Ecuador</a>
+                    <a class="w3-bar-item w3-button" href='./FrenchGuiana'>French Guiana</a>
+                    <a class="w3-bar-item w3-button" href='./Guyana'>Guyana</a>
+                    <a class="w3-bar-item w3-button" href='./Paraguay'>Paraguay</a>
+                    <a class="w3-bar-item w3-button" href="./Peru">Peru</a>
+                    <a class="w3-bar-item w3-button" href='./Suriname'>Suriname</a>
+                    <a class="w3-bar-item w3-button" href='./Uruguay'>Uruguay</a>
+                    <a class="w3-bar-item w3-button" href="./Venezuela">Venezuela</a>
+                </div>
+                <div class='w3-col l3 m6'>
+                  <h3>Australia/Oceania</h3>
+                  <a class="w3-bar-item w3-button" href='./Australia'>Australia</a>
+                  <a class="w3-bar-item w3-button" href='./Fiji'>Fiji</a>
+                  <a class="w3-bar-item w3-button" href='./NewZealand'>New Zealand</a>
+                  <a class="w3-bar-item w3-button" href='./PapuaNewGuinea'>Papua New Guinea</a>
+                  <h3>Africa</h3>
+                  <a class="w3-bar-item w3-button" href='./Algeria.html'>Algeria</a>
+                  <a class="w3-bar-item w3-button" href='./Angola.html'>Angola</a>
+                  <a class="w3-bar-item w3-button" href='./Benin.html'>Benin</a>
+                  <a class="w3-bar-item w3-button" href='./Botswana.html'>Botswana</a>
+                  <a class="w3-bar-item w3-button" href='./BurkinaFaso.html'>Burkina Faso</a>
+                  <a class="w3-bar-item w3-button" href='./Burundi.html'>Burundi</a>
+                  <a class="w3-bar-item w3-button" href='./Cameroon.html'>Cameroon</a>
+                  <a class="w3-bar-item w3-button" href='./CaboVerde.html'>Cabo Verde</a>
+                  <a class="w3-bar-item w3-button" href='./CentralAfricanRepublic.html'>Central African Republic</a>
+                  <a class="w3-bar-item w3-button" href='./Chad.html'>Chad</a>
+                  <a class="w3-bar-item w3-button" href='./Comoros.html'>Comoros</a>
+                  <a class="w3-bar-item w3-button" href='./CongoBraszzaville.html'>Congo (Braszzaville)</a>
+                  <a class="w3-bar-item w3-button" href='./CongoKinshasa.html'>Congo (Kinshasa)</a>
+                  <a class="w3-bar-item w3-button" href='./Dijibouti.html'>Dijibouti</a>
+                  <a class="w3-bar-item w3-button" href='./Egypt.html'>Egypt</a>
+                  <a class="w3-bar-item w3-button" href='./EquatorialGuinea.html'>Equatorial Guinea</a>
+                  <a class="w3-bar-item w3-button" href='./Eritrea.html'>Eritrea</a>
+                  <a class="w3-bar-item w3-button" href='./Ethiopia.html'>Ethiopia</a>
+                  <a class="w3-bar-item w3-button" href='./Gabon.html'>Gabon</a>
+                  <a class="w3-bar-item w3-button" href='./Gambia.html'>Gambia</a>
+                  <a class="w3-bar-item w3-button" href='./Ghana.html'>Ghana</a>
+                  <a class="w3-bar-item w3-button" href='./GuineaBissau.html'>Guinea-Bissau</a>
+                  <a class="w3-bar-item w3-button" href='./Kenya.html'>Kenya</a>
+                  <a class="w3-bar-item w3-button" href='./Lesotho.html'>Lesotho</a>
+                  <a class="w3-bar-item w3-button" href='./Liberia.html'>Liberia</a>
+                  <a class="w3-bar-item w3-button" href='./Libya.html'>Libya</a>
+                  <a class="w3-bar-item w3-button" href='./Madagascar.html'>Madagascar</a>
+                  <a class="w3-bar-item w3-button" href='./Malawi.html'>Malawi</a>
+                  <a class="w3-bar-item w3-button" href='./Mali.html'>Mali</a>
+                  <a class="w3-bar-item w3-button" href='./Mauritania.html'>Mauritania</a>
+                  <a class="w3-bar-item w3-button" href='./Mauritius.html'>Mauritius</a>
+                  <a class="w3-bar-item w3-button" href='./Morocco.html'>Morocco</a>
+                  <a class="w3-bar-item w3-button" href='./Mozambique.html'>Mozambique</a>
+                  <a class="w3-bar-item w3-button" href='./Namibia.html'>Namibia</a>
+                  <a class="w3-bar-item w3-button" href='./Niger.html'>Niger</a>
+                  <a class="w3-bar-item w3-button" href='./Nigeria.html'>Nigeria</a>
+                  <a class="w3-bar-item w3-button" href='./Rwanda.html'>Rwanda</a>
+                  <a class="w3-bar-item w3-button" href='./SaoTomeAndPrincipe.html'>Sao Tome and Principe</a>
+                  <a class="w3-bar-item w3-button" href='./Senegal.html'>Senegal</a>
+                  <a class="w3-bar-item w3-button" href='./Seychelles.html'>Seychelles</a>
+                  <a class="w3-bar-item w3-button" href='./SierraLeone.html'>Sierra Leone</a>
+                  <a class="w3-bar-item w3-button" href='./Somalia.html'>Somalia</a>
+                  <a class="w3-bar-item w3-button" href='./SouthAfrica.html'>South Africa</a>
+                  <a class="w3-bar-item w3-button" href='./SouthSudan.html'>South Sudan</a>
+                  <a class="w3-bar-item w3-button" href='./Sudan.html'>Sudan</a>
+                  <a class="w3-bar-item w3-button" href='./Tanzania.html'>Tanzania</a>
+                  <a class="w3-bar-item w3-button" href='./Togo.html'>Togo</a>
+                  <a class="w3-bar-item w3-button" href='./Tunisia.html'>Tunisia</a>
+                  <a class="w3-bar-item w3-button" href='./Uganda.html'>Uganda</a>
+                  <a class="w3-bar-item w3-button" href='./WesternSahara.html'>Western Sahara</a>
+                  <a class="w3-bar-item w3-button" href='./Zambia.html'>Zambia</a>
+                  <a class="w3-bar-item w3-button" href='./Zimbabwe.html'>Zimbabwe</a>
+                </div>
+              </div>
+              <div class='w3-col l3 m6'>
+                <h3>Europe</h3>
+                <a class="w3-bar-item w3-button" href='./UnitedKingdom.html'>United Kingdom</a>
+                <a class="w3-bar-item w3-button" href='./Albania.html'>Albania</a>
+                <a class="w3-bar-item w3-button" href="./Andorra.html">Andorra</a>
+                <a class="w3-bar-item w3-button" href='./Austria.html'>Austria</a>
+                <a class="w3-bar-item w3-button" href='./Belarus.html'>Belarus</a>
+                <a class="w3-bar-item w3-button" href="./Belgium.html">Belgium</a>
+                <a class="w3-bar-item w3-button" href=./BosniaandHerzegovina.html'>Bosnia and Herzegovina</a>
+                <a class="w3-bar-item w3-button" href='./Bulgaria.html'>Bulgaria</a>
+                <a class="w3-bar-item w3-button" href="./Croatia.html">Croatia (Hrvatska)</a>
+                <a class="w3-bar-item w3-button" href='./Cyprus.html'>Cyprus</a>
+                <a class="w3-bar-item w3-button" href='./CzechRepublic.html'>Czech Republic</a>
+                <a class="w3-bar-item w3-button" href="./France.html">France</a>
+                <a class="w3-bar-item w3-button" href='./Germany.html'>Germany</a>
+                <a class="w3-bar-item w3-button" href="./Greece.html">Greece</a>
+                <a class="w3-bar-item w3-button" href='./HolySee.html'>Holy See (Vatican City State)</a>
+                <a class="w3-bar-item w3-button" href='./Hungary.html'>Hungary</a>
+                <a class="w3-bar-item w3-button" href="./Italy.html">Italy</a>
+                <a class="w3-bar-item w3-button" href='./Liechtenstein.html'>Liechtenstein</a>
+                <a class="w3-bar-item w3-button" href='./Luxembourg.html'>Luxembourg</a>
+                <a class="w3-bar-item w3-button" href='./Malta.html'>Malta</a>
+                <a class="w3-bar-item w3-button" href='./Moldova.html'>Moldova</a>
+                <a class="w3-bar-item w3-button" href="./Monaco.html">Monaco</a>
+                <a class="w3-bar-item w3-button" href='./Montenegro.html'>Montenegro</a>
+                <a class="w3-bar-item w3-button" href='./Netherlands.html'>Netherlands</a>
+                <a class="w3-bar-item w3-button" href="./Poland.html">Poland</a>
+                <a class="w3-bar-item w3-button" href='./Portugal.html'>Portugal</a>
+                <a class="w3-bar-item w3-button" href='./Romania.html'>Romania</a>
+                <a class="w3-bar-item w3-button" href="./SanMarino.html">San Marino</a>
+                <a class="w3-bar-item w3-button" href='./Serbia.html'>Serbia</a>
+                <a class="w3-bar-item w3-button" href='./Slovakia.html'>Slovakia</a>
+                <a class="w3-bar-item w3-button" href="./Slovenia.html">Slovenia</a>
+                <a class="w3-bar-item w3-button" href='./Spain.html'>Spain</a>
+                <a class="w3-bar-item w3-button" href='./Ukraine.html'>Ukraine</a>
+                <a class="w3-bar-item w3-button" href="./Denmark.html">Denmark</a>
+                <a class="w3-bar-item w3-button" href='./Estonia.html'>Estonia</a>
+                <a class="w3-bar-item w3-button" href="./Finland.html">Finland</a>
+                <a class="w3-bar-item w3-button" href='./Greenland.html'>Greenland</a>
+                <a class="w3-bar-item w3-button" href='./UnitedStates.html'>Iceland</a>
+                <a class="w3-bar-item w3-button" href="./Ireland.html">Ireland</a>
+                <a class="w3-bar-item w3-button" href='./Latvia.html'>Latvia</a>
+                <a class="w3-bar-item w3-button" href='./Lithuania.html'>Lithuania</a>
+                <a class="w3-bar-item w3-button" href="./Norway.html">Norway</a>
+                <a class="w3-bar-item w3-button" href='./Sweden.html'>Sweden</a>
+                <a class="w3-bar-item w3-button" href='./Turkey.html'>Turkey</a>
+              </div>
+              <div class='w3-col l3 m6'>
+                <h3>Asia</h3>
+                <a class="w3-bar-item w3-button" href='./Afghanistan'>Afghanistan</a>
+                <a class="w3-bar-item w3-button" href='./Armenia'>Armenia</a>
+                <a class="w3-bar-item w3-button" href='./Azerbaijan'>Azerbaijan</a>
+                <a class="w3-bar-item w3-button" href='./Bahrain'>Bahrain</a>
+                <a class="w3-bar-item w3-button" href='./Bangladesh'>Bangladesh</a>
+                <a class="w3-bar-item w3-button" href='./Bhutan'>Bhutan</a>
+                <a class="w3-bar-item w3-button" href='./BruneiDarussalam'>Brunei Darussalam</a>
+                <a class="w3-bar-item w3-button" href='./Cambodia'>Cambodia</a>
+                <a class="w3-bar-item w3-button" href='./China'>China</a>
+                <a class="w3-bar-item w3-button" href='./Georgia'>Georgia</a>
+                <a class="w3-bar-item w3-button" href='./India'>India</a>
+                <a class="w3-bar-item w3-button" href='./Indonesia'>Indonesia</a>
+                <a class="w3-bar-item w3-button" href='./Iran'>Iran</a>
+                <a class="w3-bar-item w3-button" href='./Iraq'>Iraq</a>
+                <a class="w3-bar-item w3-button" href='./Israel'>Israel</a>
+                <a class="w3-bar-item w3-button" href='./Japan.html'>Japan</a>
+                <a class="w3-bar-item w3-button" href='./Jordan.html'>Jordan</a>
+                <a class="w3-bar-item w3-button" href='./Kazakhstan.html'>Kazakhstan</a>
+                <a class="w3-bar-item w3-button" href='./SouthKorea.html'>South Korea</a>
+                <a class="w3-bar-item w3-button" href='./Kuwait.html'>Kuwait</a>
+                <a class="w3-bar-item w3-button" href='./Laos.html'>Laos</a>
+                <a class="w3-bar-item w3-button" href='./Lebanon.html'>Lebanon</a>
+                <a class="w3-bar-item w3-button" href='./Malaysia.html'>Malaysia</a>
+                <a class="w3-bar-item w3-button" href='./Maldives.html'>Maldives</a>
+                <a class="w3-bar-item w3-button" href='./Mongolia.html'>Mongolia</a>
+                <a class="w3-bar-item w3-button" href='./Burma.html'>Myanmar (Burma)</a>
+                <a class="w3-bar-item w3-button" href='./Nepal.html'>Nepal</a>
+                <a class="w3-bar-item w3-button" href='./Oman.html'>Oman</a>
+                <a class="w3-bar-item w3-button" href='./Pakistan.html'>Pakistan</a>
+                <a class="w3-bar-item w3-button" href='./Phillipines.html'>Philippines</a>
+                <a class="w3-bar-item w3-button" href='./Qatar.html'>Qatar</a>
+                <a class="w3-bar-item w3-button" href='./Russia.html'>Russia</a>
+                <a class="w3-bar-item w3-button" href='./SaudiArabia.html'>Saudi Arabia</a>
+                <a class="w3-bar-item w3-button" href='./Singapore.html'>Singapore</a>
+                <a class="w3-bar-item w3-button" href='./SriLanka.html'>Sri Lanka</a>
+                <a class="w3-bar-item w3-button" href='./Syria.html'>Syria</a>
+                <a class="w3-bar-item w3-button" href='./Taiwan.html'>Taiwan</a>
+                <a class="w3-bar-item w3-button" href='./Tajikistan.html'>Tajikistan</a>
+                <a class="w3-bar-item w3-button" href='./Thailand.html'>Thailand</a>
+                <a class="w3-bar-item w3-button" href='./TimorLeste.html'>TimorLeste</a>                
+                <a class="w3-bar-item w3-button" href='./UnitedArabEmirates.html'>United Arab Emirates</a>
+                <a class="w3-bar-item w3-button" href='./Uzbekistan.html'>Uzbekistan</a>
+                <a class="w3-bar-item w3-button" href='./Vietnam.html'>Vietnam</a>
+                <a class="w3-bar-item w3-button" href='./Yemen.html'>Yemen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <a href="#" class="w3-bar-item w3-button w3-mobile w3-black" style="width:23%">List</a>
+          <form class="search" action="/action_page.php" style="width:23%">
+            <input type="text" placeholder="Search.." name="search" style="width:23%" class="w3-bar-item w3-input">
+            <button type="submit" class="w3-button w3-black" style="width:8%"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+     </tr>
+
+     
+
+     <table style="width:10%" align="center" >
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      <tr>
+        <th rowspan="2"><img src="https://www.countryflags.io/lc/flat/64.png"></th>
+        <th style="font-size:30px;height:10px">Saint Lucia</th>
+      </tr>
+      <tr>
+        <th style="font-size:10px;height:3px">America</th>
+      </tr>
+    </table>
+
+     
+     <table style="width:40%" align="center">
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      
+      <tr>
+        <th style="font-size:25px">Infected</th>
+      </tr>
+      <tr>
+        <th style="font-size:20px" id="TotalConfirmed139" ></th>
+      </tr>
+      <tr>
+        <th style="color:red" id="TodayConfirmed139"></th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+
+      <tr>
+        <th style="font-size:25px">Recovery</th>
+      </tr>
+      <tr>
+        <th style="font-size:20px" id="TotalRecovered139" ></th>
+      </tr>
+      <tr>
+        <th style="color:green" id="TodayRecovered139"></th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      
+      <tr>
+        <th style="font-size:25px">Death</th>
+      </tr>
+      <tr>
+        <th style="font-size:20px" id="TotalDeaths139" ></th>
+      </tr>
+      <tr>
+        <th style="color:red" id="TodayDeaths139"></th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+
+      <tr>
+        <th style="font-size:25px">Population</th>
+      </tr>
+      <tr>
+        <th style="font-size:20px" id="Population139" ></th>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+      </tr>
+      </table>
+
+   </table>
+</body>
+</html>
