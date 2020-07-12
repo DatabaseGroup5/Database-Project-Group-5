@@ -271,6 +271,55 @@
             </head>
             <body>
      <!-- ___________________________forum_____________________________________________-->
+        <?php
+        $hostname = "localhost";
+        $username = "root";
+        $password = "";
+
+        $conn = mysqli_connect($hostname,$username,$password);
+
+        //check connection
+        if(!$conn){ die("Connection failed: " . mysqli_connect_error()); }
+
+        //create database
+        $sqldb = "CREATE DATABASE IF NOT EXISTS forum";
+        $db = mysqli_query($conn, $sqldb);
+        #if ($db) { echo "Database created successfully\n"; } 
+        #else { echo "Error creating database: " . mysqli_error($conn); }
+
+        //use (select) database
+        mysqli_select_db($conn, "forum");
+
+        //create tables
+        $forumtopics = "
+        CREATE TABLE IF NOT EXISTS forum_topics (
+        topic_id int not null primary key auto_increment,
+        topic_title varchar (140),
+        topic_create_time datetime,
+        topic_owner varchar (140)
+        );
+        ";
+
+        $forumposts = "
+        CREATE TABLE IF NOT EXISTS forum_posts (
+        post_id int not null primary key auto_increment,
+        topic_id int not null,
+        post_text text,
+        post_create_time datetime,
+        post_owner varchar (140)
+        );
+        ";
+
+        //executing queries above
+        $table1 = mysqli_query($conn,$forumtopics);
+        $table2 = mysqli_query($conn,$forumposts);
+        #if($table1 && $table2){ echo ",Tables created";}
+        #else {echo "Error creating database: " . mysqli_error($conn);}
+
+        //close connection
+        mysqli_close($conn);
+    ?>
+
     <?php
 
     //connect to server and select database
