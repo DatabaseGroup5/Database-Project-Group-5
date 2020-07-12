@@ -7,542 +7,543 @@
 	if($str == 'afghanistan'){
 	      header("Location: ./Countries/Afghanistan.html");
 	}
-	if($str == 'albania'){
+	else if($str == 'albania'){
 	      header("Location: ./Countries/Albania.html");
 	}
-	if($str == 'algeria'){
+	else if($str == 'algeria'){
 	      header("Location: ./Countries/Algeria.html");
 	}
-	if($str == 'andorra'){
+	else if($str == 'andorra'){
 	      header("Location: ./Countries/Andorra.html");
 	}
-	if($str == 'angola'){
+	else if($str == 'angola'){
 	      header("Location: ./Countries/Angola.html");
 	}
-	if($str == 'antigua and barbuda'){
+	else if($str == 'antigua and barbuda'){
 	      header("Location: ./Countries/AntiguaandBarbuda.html");
 	}
-	if($str == 'argentina'){
+	else if($str == 'argentina'){
 	      header("Location: ./Countries/Argentina.html");
 	}
-	if($str == 'armenia'){
+	else if($str == 'armenia'){
 	      header("Location: ./Countries/Armenia.html");
 	}
-	if($str == 'australia'){
+	else if($str == 'australia'){
 	      header("Location: ./Countries/Australia.html");
 	}
-	if($str == 'austria'){
+	else if($str == 'austria'){
 	      header("Location: ./Countries/Austria.html");
 	}
-	if($str == 'azerbaijan'){
+	else if($str == 'azerbaijan'){
 	      header("Location: ./Countries/Azerbaijan.html");
 	}
-	if($str == 'bahamas'){
+	else if($str == 'bahamas'){
 	      header("Location: ./Countries/Bahamas.html");
 	}
-	if($str == 'bahrain'){
+	else if($str == 'bahrain'){
 	      header("Location: ./Countries/Bahrain.html");
 	}
-	if($str == 'bangladesh'){
+	else if($str == 'bangladesh'){
 	      header("Location: ./Countries/Bangladesh.html");
 	}
-	if($str == 'barbados'){
+	else if($str == 'barbados'){
 	      header("Location: ./Countries/Barbados.html");
 	}
-	if($str == 'belarus'){
+	else if($str == 'belarus'){
 	      header("Location: ./Countries/Belarus.html");
 	}
-	if($str == 'belgium'){
+	else if($str == 'belgium'){
 	      header("Location: ./Countries/Belgium.html");
 	}
-	if($str == 'belize'){
+	else if($str == 'belize'){
 	      header("Location: ./Countries/Belize.html");
 	}
-	if($str == 'benin'){
+	else if($str == 'benin'){
 	      header("Location: ./Countries/Benin.html");
 	}
-	if($str == 'bhutan'){
+	else if($str == 'bhutan'){
 	      header("Location: ./Countries/Bhutan.html");
 	}
-	if($str == 'bolivia'){
+	else if($str == 'bolivia'){
 	      header("Location: ./Countries/Bolivia.html");
 	}
-	if($str == 'bosnia and herzegovina'){
+	else if($str == 'bosnia and herzegovina'){
 	      header("Location: ./Countries/BosniaandHerzegovina.html");
 	}
-	if($str == 'botswana'){
+	else if($str == 'botswana'){
 	      header("Location: ./Countries/Botswana.html");
 	}
-	if($str == 'brazil'){
+	else if($str == 'brazil'){
 	      header("Location: ./Countries/Brazil.html");
 	}
-	if($str == 'brunei'){
+	else if($str == 'brunei'){
 	      header("Location: ./Countries/BruneiDarussalam.html");
 	}
-	if($str == 'bulgaria'){
+	else if($str == 'bulgaria'){
 	      header("Location: ./Countries/Bulgaria.html");
 	}
-	if($str == 'burkina faso'){
+	else if($str == 'burkina faso'){
 	      header("Location: ./Countries/BurkinaFaso.html");
 	}
-	if($str == 'burma'){
+	else if($str == 'burma'){
 	      header("Location: ./Countries/Burma.html");
 	}
-	if($str == 'burundi'){
+	else if($str == 'burundi'){
 	      header("Location: ./Countries/Burundi.html");
 	}
-	if($str == 'cabo verde'){
+	else if($str == 'cabo verde'){
 	      header("Location: ./Countries/CaboVerde.html");
 	}
-	if($str == 'cambodia'){
+	else if($str == 'cambodia'){
 	      header("Location: ./Countries/Cambodia.html");
 	}
-	if($str == 'cameroon'){
+	else if($str == 'cameroon'){
 	      header("Location: ./Countries/Cameroon.html");
 	}
-	if($str == 'canada'){
+	else if($str == 'canada'){
 	      header("Location: ./Countries/Canada.html");
 	}
-	if($str == 'central african republic'){
+	else if($str == 'central african republic'){
 	      header("Location: ./Countries/CentralAfricanRepublic.html");
 	}
-	if($str == 'chad'){
+	else if($str == 'chad'){
 	      header("Location: ./Countries/Chad.html");
 	}
-	if($str == 'chile'){
+	else if($str == 'chile'){
 	      header("Location: ./Countries/Chile.html");
 	}
-	if($str == 'china'){
+	else if($str == 'china'){
 	      header("Location: ./Countries/China.html");
 	}
-	if($str == 'colombia'){
+	else if($str == 'colombia'){
 	      header("Location: ./Countries/Colombia.html");
 	}
-	if($str == 'comoros'){
+	else if($str == 'comoros'){
 	      header("Location: ./Countries/Comoros.html");
 	}
-	if($str == 'congo brazzaville'){
+	else if($str == 'congo brazzaville'){
 	      header("Location: ./Countries/CongoBraszzaville.html");
 	}
-	if($str == 'congo kinshasa'){
+	else if($str == 'congo kinshasa'){
 	      header("Location: ./Countries/CongoKinshasa.html");
 	}
-	if($str == 'costa rica'){
+	else if($str == 'costa rica'){
 	      header("Location: ./Countries/CostaRica.html");
 	}
-	if($str == 'croatia'){
+	else if($str == 'croatia'){
 	      header("Location: ./Countries/Croatia.html");
 	}
-	if($str == 'cuba'){
+	else if($str == 'cuba'){
 	      header("Location: ./Countries/Cuba.html");
 	}
-	if($str == 'cyprus'){
+	else if($str == 'cyprus'){
 	      header("Location: ./Countries/Cyprus.html");
 	}
-	if($str == 'czechia'){
+	else if($str == 'czechia'){
 	      header("Location: ./Countries/CzechRepublic.html");
 	}
-	if($str == 'denmark'){
+	else if($str == 'denmark'){
 	      header("Location: ./Countries/Denmark.html");
 	}
-	if($str == 'djibouti'){
+	else if($str == 'djibouti'){
 	      header("Location: ./Countries/Dijibouti.html");
 	}
-	if($str == 'dominica'){
+	else if($str == 'dominica'){
 	      header("Location: ./Countries/Dominica.html");
 	}
-	if($str == 'dominican republic'){
+	else if($str == 'dominican republic'){
 	      header("Location: ./Countries/DominicanRepublic.html");
 	}
-	if($str == 'ecuador'){
+	else if($str == 'ecuador'){
 	      header("Location: ./Countries/Ecuador.html");
 	}
-	if($str == 'egypt'){
+	else if($str == 'egypt'){
 	      header("Location: ./Countries/Egypt.html");
 	}
-	if($str == 'el salvador'){
+	else if($str == 'el salvador'){
 	      header("Location: ./Countries/ElSalvador.html");
 	}
-	if($str == 'equatorial guinea'){
+	else if($str == 'equatorial guinea'){
 	      header("Location: ./Countries/EquatorialGuinea.html");
 	}
-	if($str == 'eritrea'){
+	else if($str == 'eritrea'){
 	      header("Location: ./Countries/Eritrea.html");
 	}
-	if($str == 'estonia'){
+	else if($str == 'estonia'){
 	      header("Location: ./Countries/Estonia.html");
 	}
-	if($str == 'ethiopia'){
+	else if($str == 'ethiopia'){
 	      header("Location: ./Countries/Ethiopia.html");
 	}
-	if($str == 'fiji'){
+	else if($str == 'fiji'){
 	      header("Location: ./Countries/Fiji.html");
 	}
-	if($str == 'finland'){
+	else if($str == 'finland'){
 	      header("Location: ./Countries/Finland.html");
 	}
-	if($str == 'france'){
+	else if($str == 'france'){
 	      header("Location: ./Countries/France.html");
 	}
-	if($str == 'gabon'){
+	else if($str == 'gabon'){
 	      header("Location: ./Countries/Gabon.html");
 	}
-	if($str == 'gambia'){
+	else if($str == 'gambia'){
 	      header("Location: ./Countries/Gambia.html");
 	}
-	if($str == 'georgia'){
+	else if($str == 'georgia'){
 	      header("Location: ./Countries/Georgia.html");
 	}
-	if($str == 'germany'){
+	else if($str == 'germany'){
 	      header("Location: ./Countries/Germany.html");
 	}
-	if($str == 'ghana'){
+	else if($str == 'ghana'){
 	      header("Location: ./Countries/Ghana.html");
 	}
-	if($str == 'greece'){
+	else if($str == 'greece'){
 	      header("Location: ./Countries/Greece.html");
 	}
-	if($str == 'grenada'){
+	else if($str == 'grenada'){
 	      header("Location: ./Countries/Grenada.html");
 	}
-	if($str == 'guatemala'){
+	else if($str == 'guatemala'){
 	      header("Location: ./Countries/Guatemala.html");
 	}
-	if($str == 'guinea-bissau'){
+	else if($str == 'guinea-bissau'){
 	      header("Location: ./Countries/GuineaBissau.html");
 	}
-	if($str == 'guyana'){
+	else if($str == 'guyana'){
 	      header("Location: ./Countries/Guyana.html");
 	}
-	if($str == 'haiti'){
+	else if($str == 'haiti'){
 	      header("Location: ./Countries/Haiti.html");
 	}
-	if($str == 'holy see'){
+	else if($str == 'holy see'){
 	      header("Location: ./Countries/HolySee.html");
 	}
-	if($str == 'honduras'){
+	else if($str == 'honduras'){
 	      header("Location: ./Countries/Honduras.html");
 	}
-	if($str == 'hungary'){
+	else if($str == 'hungary'){
 	      header("Location: ./Countries/Hungary.html");
 	}
-	if($str == 'iceland'){
+	else if($str == 'iceland'){
 	      header("Location: ./Countries/Iceland.html");
 	}
-	if($str == 'india'){
+	else if($str == 'india'){
 	      header("Location: ./Countries/India.html");
 	}
-	if($str == 'indonesia'){
+	else if($str == 'indonesia'){
 	      header("Location: ./Countries/Indonesia.html");
 	}
-	if($str == 'iran'){
+	else if($str == 'iran'){
 	      header("Location: ./Countries/Iran.html");
 	}
-	if($str == 'iraq'){
+	else if($str == 'iraq'){
 	      header("Location: ./Countries/Iraq.html");
 	}
-	if($str == 'ireland'){
+	else if($str == 'ireland'){
 	      header("Location: ./Countries/Ireland.html");
 	}
-	if($str == 'israel'){
+	else if($str == 'israel'){
 	      header("Location: ./Countries/Israel.html");
 	}
-	if($str == 'italy'){
+	else if($str == 'italy'){
 	      header("Location: ./Countries/Italy.html");
 	}
-	if($str == 'jamaica'){
+	else if($str == 'jamaica'){
 	      header("Location: ./Countries/Jamaica.html");
 	}
-	if($str == 'japan'){
+	else if($str == 'japan'){
 	      header("Location: ./Countries/Japan.html");
 	}
-	if($str == 'jordan'){
+	else if($str == 'jordan'){
 	      header("Location: ./Countries/Jordan.html");
 	}
-	if($str == 'kazakhstan'){
+	else if($str == 'kazakhstan'){
 	      header("Location: ./Countries/Kazakhstan.html");
 	}
-	if($str == 'kenya'){
+	else if($str == 'kenya'){
 	      header("Location: ./Countries/Kenya.html");
 	}
-	if($str == 'kuwait'){
+	else if($str == 'kuwait'){
 	      header("Location: ./Countries/Kuwait.html");
 	}
-	if($str == 'kyrgyzstan'){
+	else if($str == 'kyrgyzstan'){
 	      header("Location: ./Countries/Kyrgyzstan.html");
 	}
-	if($str == 'laos'){
+	else if($str == 'laos'){
 	      header("Location: ./Countries/Laos.html");
 	}
-	if($str == 'latvia'){
+	else if($str == 'latvia'){
 	      header("Location: ./Countries/Latvia.html");
 	}
-	if($str == 'lebanon'){
+	else if($str == 'lebanon'){
 	      header("Location: ./Countries/Lebanon.html");
 	}
-	if($str == 'lesotho'){
+	else if($str == 'lesotho'){
 	      header("Location: ./Countries/Lesotho.html");
 	}
-	if($str == 'liberia'){
+	else if($str == 'liberia'){
 	      header("Location: ./Countries/Liberia.html");
 	}
-	if($str == 'libya'){
+	else if($str == 'libya'){
 	      header("Location: ./Countries/Libya.html");
 	}
-	if($str == 'liechtenstein'){
+	else if($str == 'liechtenstein'){
 	      header("Location: ./Countries/Liechtenstein.html");
 	}
-	if($str == 'lithuania'){
+	else if($str == 'lithuania'){
 	      header("Location: ./Countries/Lithuania.html");
 	}
-	if($str == 'luxembourg'){
+	else if($str == 'luxembourg'){
 	      header("Location: ./Countries/Luxembourg.html");
 	}
-	if($str == 'madagascar'){
+	else if($str == 'madagascar'){
 	      header("Location: ./Countries/Madagascar.html");
 	}
-	if($str == 'malawi'){
+	else if($str == 'malawi'){
 	      header("Location: ./Countries/Malawi.html");
 	}
-	if($str == 'malaysia'){
+	else if($str == 'malaysia'){
 	      header("Location: ./Countries/Malaysia.html");
 	}
-	if($str == 'maldives'){
+	else if($str == 'maldives'){
 	      header("Location: ./Countries/Maldives.html");
 	}
-	if($str == 'mali'){
+	else if($str == 'mali'){
 	      header("Location: ./Countries/Mali.html");
 	}
-	if($str == 'malta'){
+	else if($str == 'malta'){
 	      header("Location: ./Countries/Malta.html");
 	}
-	if($str == 'mauritania'){
+	else if($str == 'mauritania'){
 	      header("Location: ./Countries/Mauritania.html");
 	}
-	if($str == 'mauritius'){
+	else if($str == 'mauritius'){
 	      header("Location: ./Countries/Mauritius.html");
 	}
-	if($str == 'mexico'){
+	else if($str == 'mexico'){
 	      header("Location: ./Countries/Mexico.html");
 	}
-	if($str == 'moldova'){
+	else if($str == 'moldova'){
 	      header("Location: ./Countries/Moldova.html");
 	}
-	if($str == 'monaco'){
+	else if($str == 'monaco'){
 	      header("Location: ./Countries/Monaco.html");
 	}
-	if($str == 'mongolia'){
+	else if($str == 'mongolia'){
 	      header("Location: ./Countries/Mongolia.html");
 	}
-	if($str == 'montenegro'){
+	else if($str == 'montenegro'){
 	      header("Location: ./Countries/Montenegro.html");
 	}
-	if($str == 'morocco'){
+	else if($str == 'morocco'){
 	      header("Location: ./Countries/Morocco.html");
 	}
-	if($str == 'mozambique'){
+	else if($str == 'mozambique'){
 	      header("Location: ./Countries/Mozambique.html");
 	}
-	if($str == 'namibia'){
+	else if($str == 'namibia'){
 	      header("Location: ./Countries/Namibia.html");
 	}
-	if($str == 'nepal'){
+	else if($str == 'nepal'){
 	      header("Location: ./Countries/Nepal.html");
 	}
-	if($str == 'netherlands'){
+	else if($str == 'netherlands'){
 	      header("Location: ./Countries/Netherlands.html");
 	}
-	if($str == 'new zealand'){
+	else if($str == 'new zealand'){
 	      header("Location: ./Countries/NewZealand.html");
 	}
-	if($str == 'nicaragua'){
+	else if($str == 'nicaragua'){
 	      header("Location: ./Countries/Nicaragua.html");
 	}
-	if($str == 'niger'){
+	else if($str == 'niger'){
 	      header("Location: ./Countries/Niger.html");
 	}
-	if($str == 'nigeria'){
+	else if($str == 'nigeria'){
 	      header("Location: ./Countries/Nigeria.html");
 	}
-	if($str == 'norway'){
+	else if($str == 'norway'){
 	      header("Location: ./Countries/Norway.html");
 	}
-	if($str == 'oman'){
+	else if($str == 'oman'){
 	      header("Location: ./Countries/Oman.html");
 	}
-	if($str == 'pakistan'){
+	else if($str == 'pakistan'){
 	      header("Location: ./Countries/Pakistan.html");
 	}
-	if($str == 'panama'){
+	else if($str == 'panama'){
 	      header("Location: ./Countries/Panama.html");
 	}
-	if($str == 'papua new guinea'){
+	else if($str == 'papua new guinea'){
 	      header("Location: ./Countries/PapuaNewGuinea.html");
 	}
-	if($str == 'paraguay'){
+	else if($str == 'paraguay'){
 	      header("Location: ./Countries/Paraguay.html");
 	}
-	if($str == 'peru'){
+	else if($str == 'peru'){
 	      header("Location: ./Countries/Peru.html");
 	}
-	if($str == 'philippines'){
+	else if($str == 'philippines'){
 	      header("Location: ./Countries/Philippines.html");
 	}
-	if($str == 'poland'){
+	else if($str == 'poland'){
 	      header("Location: ./Countries/Poland.html");
 	}
-	if($str == 'portugal'){
+	else if($str == 'portugal'){
 	      header("Location: ./Countries/Portugal.html");
 	}
-	if($str == 'qatar'){
+	else if($str == 'qatar'){
 	      header("Location: ./Countries/Qatar.html");
 	}
-	if($str == 'romania'){
+	else if($str == 'romania'){
 	      header("Location: ./Countries/Romania.html");
 	}
-	if($str == 'russia'){
+	else if($str == 'russia'){
 	      header("Location: ./Countries/Russia.html");
 	}
-	if($str == 'rwanda'){
+	else if($str == 'rwanda'){
 	      header("Location: ./Countries/Rwanda.html");
 	}
-	if($str == 'saint kitts and nevis'){
+	else if($str == 'saint kitts and nevis'){
 	      header("Location: ./Countries/SaintKittsandNevis.html");
 	}
-	if($str == 'saint lucia'){
+	else if($str == 'saint lucia'){
 	      header("Location: ./Countries/SaintLucia.html");
 	}
-	if($str == 'saint vincent and the grenadines'){
+	else if($str == 'saint vincent and the grenadines'){
 	      header("Location: ./Countries/SaintVincentandtheGrenadines.html");
 	}
-	if($str == 'san marino'){
+	else if($str == 'san marino'){
 	      header("Location: ./Countries/SanMarino.html");
 	}
-	if($str == 'sao tome and principe'){
+	else if($str == 'sao tome and principe'){
 	      header("Location: ./Countries/SaoTomeandPrincipe.html");
 	}
-	if($str == 'saudi arabia'){
+	else if($str == 'saudi arabia'){
 	      header("Location: ./Countries/SaudiArabia.html");
 	}
-	if($str == 'senegal'){
+	else if($str == 'senegal'){
 	      header("Location: ./Countries/Senegal.html");
 	}
-	if($str == 'serbia'){
+	else if($str == 'serbia'){
 	      header("Location: ./Countries/Serbia.html");
 	}
-	if($str == 'seychelles'){
+	else if($str == 'seychelles'){
 	      header("Location: ./Countries/Seychelles.html");
 	}
-	if($str == 'sierra leone'){
+	else if($str == 'sierra leone'){
 	      header("Location: ./Countries/SierraLeone.html");
 	}
-	if($str == 'singapore'){
+	else if($str == 'singapore'){
 	      header("Location: ./Countries/Singapore.html");
 	}
-	if($str == 'slovakia'){
+	else if($str == 'slovakia'){
 	      header("Location: ./Countries/Slovakia.html");
 	}
-	if($str == 'slovenia'){
+	else if($str == 'slovenia'){
 	      header("Location: ./Countries/Slovenia.html");
 	}
-	if($str == 'somalia'){
+	else if($str == 'somalia'){
 	      header("Location: ./Countries/Somalia.html");
 	}
-	if($str == 'south africa'){
+	else if($str == 'south africa'){
 	      header("Location: ./Countries/SouthAfrica.html");
 	}
-	if($str == 'south korea'){
+	else if($str == 'south korea'){
 	      header("Location: ./Countries/SouthKorea.html");
 	}
-	if($str == 'south sudan'){
+	else if($str == 'south sudan'){
 	      header("Location: ./Countries/SouthSudan.html");
 	}
-	if($str == 'spain'){
+	else if($str == 'spain'){
 	      header("Location: ./Countries/Spain.html");
 	}
-	if($str == 'sri lanka'){
+	else if($str == 'sri lanka'){
 	      header("Location: ./Countries/SriLanka.html");
 	}
-	if($str == 'sudan'){
+	else if($str == 'sudan'){
 	      header("Location: ./Countries/Sudan.html");
 	}
-	if($str == 'suriname'){
+	else if($str == 'suriname'){
 	      header("Location: ./Countries/Suriname.html");
 	}
-	if($str == 'sweden'){
+	else if($str == 'sweden'){
 	      header("Location: ./Countries/Sweden.html");
 	}
-	if($str == 'syria'){
+	else if($str == 'syria'){
 	      header("Location: ./Countries/Syria.html");
 	}
-	if($str == 'taiwan'){
+	else if($str == 'taiwan'){
 	      header("Location: ./Countries/Taiwan.html");
 	}
-	if($str == 'tajikistan'){
+	else if($str == 'tajikistan'){
 	      header("Location: ./Countries/Tajikistan.html");
 	}
-	if($str == 'tanzania'){
+	else if($str == 'tanzania'){
 	      header("Location: ./Countries/Tanzania.html");
 	}
-	if($str == 'thailand'){
+	else if($str == 'thailand'){
 	      header("Location: ./Countries/Thailand.html");
 	}
-	if($str == 'timor-leste'){
+	else if($str == 'timor-leste'){
 	      header("Location: ./Countries/TimorLeste.html");
 	}
-	if($str == 'togo'){
+	else if($str == 'togo'){
 	      header("Location: ./Countries/Togo.html");
 	}
-	if($str == 'trinidad and tobago'){
+	else if($str == 'trinidad and tobago'){
 	      header("Location: ./Countries/TrinidadandTobago.html");
 	}
-	if($str == 'tunisia'){
+	else if($str == 'tunisia'){
 	      header("Location: ./Countries/Tunisia.html");
 	}
-	if($str == 'turkey'){
+	else if($str == 'turkey'){
 	      header("Location: ./Countries/Turkey.html");
 	}
-	if($str == 'uganda'){
+	else if($str == 'uganda'){
 	      header("Location: ./Countries/Uganda.html");
 	}
-	if($str == 'ukraine'){
+	else if($str == 'ukraine'){
 	      header("Location: ./Countries/Ukraine.html");
 	}
-	if($str == 'united arab emirates'){
+	else if($str == 'united arab emirates'){
 	      header("Location: ./Countries/UnitedArabEmirates.html");
 	}
-	if($str == 'united kingdom'){
+	else if($str == 'united kingdom'){
 	      header("Location: ./Countries/UnitedKingdom.html");
 	}
-	if($str == 'uruguay'){
+	else if($str == 'uruguay'){
 	      header("Location: ./Countries/Uruguay.html");
 	}
-	if($str == 'us'){
+	else if($str == 'us'){
 	      header("Location: ./Countries/US.html");
 	}
-	if($str == 'uzbekistan'){
+	else if($str == 'uzbekistan'){
 	      header("Location: ./Countries/Uzbekistan.html");
 	}
-	if($str == 'venezuela'){
+	else if($str == 'venezuela'){
 	      header("Location: ./Countries/Venezuela.html");
 	}
-	if($str == 'vietnam'){
+	else if($str == 'vietnam'){
 	      header("Location: ./Countries/Vietnam.html");
 	}
-	if($str == 'western sahara'){
+	else if($str == 'western sahara'){
 	      header("Location: ./Countries/WesternSahara.html");
 	}
-	if($str == 'yemen'){
+	else if($str == 'yemen'){
 	      header("Location: ./Countries/Yemen.html");
 	}
-	if($str == 'zambia'){
+	else if($str == 'zambia'){
 	      header("Location: ./Countries/Zambia.html");
 	}
-	if($str == 'zimbabwe'){
+	else if($str == 'zimbabwe'){
 	      header("Location: ./Countries/Zimbabwe.html");
 	}
-	
+	else{
+		header("Location: ./pagenotfound.html");
+	}
 ?>
 </body>
 </html>
-
