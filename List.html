@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.0//firebase-database.js"></script>
+  
+	<script type = "text/javascript" src = "./applist.js"></script>
  	<title>List</title>
  	<meta name="viewport" content="width=device-width, initial-scale=1">
  	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -42,6 +46,7 @@
 </head>
 
 <body>
+	<script src="./applist.js"></script>
 	<table>
 		<tr>
 		 	<div class="w3-bar w3-black">
@@ -263,77 +268,77 @@
 			 <h1>&nbsp;</h1>
 			 <table style="width:40%" align="center">
 				<tr>
-				  <th>Country with Highest Daily Death Cases</th>
-				  <th>Number of Cases</th>
+				  <th style="font-size:15px">Country with Highest Daily Death Cases</th>
+				  <th style="font-size:15px">Number of Cases</th>
 				</tr>
 				<tr>
-				  <th>Brazil</th>
-				  <th>602</th>
+				  <th style="font-size:15px" id="Country1841" ></th>
+				  <th style="font-size:15px" id="Country1841n" ></th>
 				</tr>
 				<tr>
-				  <th>India</th>
-				  <th>425</th>
+					<th style="font-size:15px" id="Country1842" ></th>
+					<th style="font-size:15px" id="Country1842n" ></th>
 				</tr>
 				<tr>
-				  <th>Mexico</th>
-				  <th>273</th>
+					<th style="font-size:15px" id="Country1843" ></th>
+					<th style="font-size:15px" id="Country1843n" ></th>
 				</tr>
 			</table>
 			<h1>&nbsp;</h1>
 			 <table style="width:40%" align="center">
 				<tr>
-				  <th>Country with Highest Total Infected Cases</th>
-				  <th>Number of Cases</th>
+				  <th style="font-size:14px">Country with Highest Total Infected Cases</th>
+				  <th style="font-size:15px">Number of Cases</th>
 				</tr>
 				<tr>
-				  <th>United States</th>
-				  <th>2888635</th>
+					<th style="font-size:15px" id="Country1851" ></th>
+					<th style="font-size:15px" id="Country1851n" ></th>
 				</tr>
 				<tr>
-				  <th>Brazil</th>
-				  <th>1603055</th>
+					<th style="font-size:15px" id="Country1852" ></th>
+					<th style="font-size:15px" id="Country1852n" ></th>
 				</tr>
 				<tr>
-				  <th>India</th>
-				  <th>697413</th>
-				</tr>
-			</table>
-			<h1>&nbsp;</h1>
-			<table style="width:40%" align="center">
-				<tr>
-				  <th>Country with Highest Daily Infected Cases</th>
-				  <th>Number of Cases</th>
-				</tr>
-				<tr>
-				  <th>United States</th>
-				  <th>49199</th>
-				</tr>
-				<tr>
-				  <th>Brazil</th>
-				  <th>26051</th>
-				</tr>
-				<tr>
-				  <th>India</th>
-				  <th>24248</th>
+					<th style="font-size:15px" id="Country1853" ></th>
+					<th style="font-size:15px" id="Country1853n" ></th>
 				</tr>
 			</table>
 			<h1>&nbsp;</h1>
 			<table style="width:40%" align="center">
 				<tr>
-				  <th>Country with Highest Infected Cases Left</th>
-				  <th>Number of Cases</th>
+				  <th style="font-size:15px">Country with Highest Daily Infected Cases</th>
+				  <th style="font-size:15px">Number of Cases</th>
 				</tr>
 				<tr>
-				  <th>United States</th>
-				  <th>1981872</th>
+					<th style="font-size:15px" id="Country1861" ></th>
+					<th style="font-size:15px" id="Country1861n" ></th>
 				</tr>
 				<tr>
-				  <th>Brazil</th>
-				  <th>574010</th>
+					<th style="font-size:15px" id="Country1862" ></th>
+					<th style="font-size:15px" id="Country1862n" ></th>
 				</tr>
 				<tr>
-				  <th>United Kingdom</th>
-				  <th>285556</th>
+					<th style="font-size:15px" id="Country1863" ></th>
+					<th style="font-size:15px" id="Country1863n" ></th>
+				</tr>
+			</table>
+			<h1>&nbsp;</h1>
+			<table style="width:40%" align="center">
+				<tr>
+				  <th style="font-size:15px">Country with Highest Infected Cases Left</th>
+				  <th style="font-size:15px">Number of Cases</th>
+				</tr>
+				<tr>
+					<th style="font-size:15px" id="Country1871" ></th>
+					<th style="font-size:15px" id="Country1871n" ></th>
+				</tr>
+				<tr>
+					<th style="font-size:15px" id="Country1872" ></th>
+					<th style="font-size:15px" id="Country1872n" ></th>
+				</tr>
+				<tr>
+					<th style="font-size:15px" id="Country1873" ></th>
+					<th style="font-size:15px" id="Country1873n" ></th>
 				</tr>
 			</table>
 			<h1>&nbsp;</h1>
