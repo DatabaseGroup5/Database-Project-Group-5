@@ -1,12 +1,5 @@
 var config = {
-    apiKey: "AIzaSyDskfClu41qf-OaWQK-dnNDk1BVNb8uXi8",
-    authDomain: "database-final-project-d460c.firebaseapp.com",
-    databaseURL: "https://database-final-project-d460c.firebaseio.com",
-    projectId: "database-final-project-d460c",
-    storageBucket: "database-final-project-d460c.appspot.com",
-    messagingSenderId: "806148239569",
-    appId: "1:806148239569:web:7c26ca5a967b0bf8b015f0",
-    measurementId: "G-HPQETCPZXL"
+
   };
   // Initialize Firebase
  if (!firebase.apps.length) {
